@@ -62,7 +62,7 @@ namespace jsonz
         {
             if (args.Length == 0)
             {
-                Console.WriteLine("Usage: jsonZ <filename.jsonz | *.jsonz> [--w|-w|w]");
+                Console.WriteLine("Usage: jsonz <filename.jsonz | *.jsonz> [--w|-w|w]");
                 Console.WriteLine();
                 Console.WriteLine("       Decompress JSONZ files into JSON files.");
                 Console.WriteLine();
@@ -74,14 +74,14 @@ namespace jsonz
                 Console.WriteLine("Examples:");
                 Console.WriteLine();
                 Console.WriteLine("       To decompress all the Jsonz file in Downloads:");
-                Console.WriteLine("                jzon C:\\Users\\SteveRives\\Downloads\\*.jsonz");
+                Console.WriteLine("                jsonz C:\\Users\\SteveRives\\Downloads\\*.jsonz");
                 Console.WriteLine("       In this case, the output is written to whatever directory you are in when you run the program.");
                 Console.WriteLine();
                 Console.WriteLine("       To decompress a single JSONZ file to the console:");
-                Console.WriteLine("                jzon myData.jsonz --w");
+                Console.WriteLine("                jsonz myData.jsonz --w");
                 Console.WriteLine();
                 Console.WriteLine("       To decompress a single JSONZ file to the console and pretty-print it:");
-                Console.WriteLine("                jzon myData.jsonz --w | jq");
+                Console.WriteLine("                jsonz myData.jsonz --w | jq");
                 Console.WriteLine("       Where jq is a third-party app, last available here: https://jqlang.github.io/jq/download/");
                 Console.WriteLine("       To install jq, run: choco install jq");
                 Console.WriteLine();
