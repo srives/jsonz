@@ -85,7 +85,7 @@ namespace jsonz
                 Console.WriteLine("       Where jq is a third-party app, last available here: https://jqlang.github.io/jq/download/");
                 Console.WriteLine("       To install jq, run: choco install jq");
                 Console.WriteLine();
-                Console.WriteLine("(c) CodeKill: v. 10/27/2024");
+                Console.WriteLine("(c) https://github.com/srives/jsonz: v. 10/27/2024");
                 return;
             }
 
