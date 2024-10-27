@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "jsonz": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\SteveRives\\Downloads\\*.jsonz"
+    }
+  }
+}
